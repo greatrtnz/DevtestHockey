@@ -136,7 +136,6 @@
 		6C4557522537974D00A92623 /* SuperDeker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperDeker.xcdatamodel; sourceTree = "<group>"; };
 		6C4557542537974F00A92623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C4557572537974F00A92623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6C4557592537974F00A92623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C45575E2537975000A92623 /* SuperDekerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperDekerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4557622537975000A92623 /* SuperDekerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDekerTests.swift; sourceTree = "<group>"; };
 		6C4557642537975000A92623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -289,7 +288,6 @@
 				6C78EC9B25519BEA00291D55 /* CountriesTableViewController.swift */,
 				6C4557542537974F00A92623 /* Assets.xcassets */,
 				6C4557562537974F00A92623 /* LaunchScreen.storyboard */,
-				6C4557592537974F00A92623 /* Info.plist */,
 				6C4557512537974D00A92623 /* SuperDeker.xcdatamodeld */,
 				6CFED8622547B959007C66B1 /* ValidEmail.swift */,
 				7432896D259F8D98008C2E14 /* WelcomeViewController.swift */,
