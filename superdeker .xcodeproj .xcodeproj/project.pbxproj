@@ -66,6 +66,7 @@
 		74AA235725DC1FDB00ADFA64 /* LeaderBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA235625DC1FDB00ADFA64 /* LeaderBoardTableViewCell.swift */; };
 		CAC96F35260C197200012977 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC96F2C260C18E000012977 /* Charts.framework */; };
 		CAC96F36260C197200012977 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CAC96F2C260C18E000012977 /* Charts.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CAC96F57260C2B2100012977 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAC96F47260C29C800012977 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -191,6 +192,7 @@
 		74AA235125DC1D2100ADFA64 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeaderBoardViewController.swift; path = SuperDeker/LeaderBoardViewController.swift; sourceTree = SOURCE_ROOT; };
 		74AA235625DC1FDB00ADFA64 /* LeaderBoardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		CAC96F26260C18E000012977 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		CAC96F47260C29C800012977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +257,7 @@
 		6C4557472537974D00A92623 /* SuperDeker */ = {
 			isa = PBXGroup;
 			children = (
+				CAC96F47260C29C800012977 /* Info.plist */,
 				747545EA25EDC1CD002AA1B8 /* PersonalScoreModel */,
 				741FFEC125E7FE3600EEA836 /* LeaderScoreModel */,
 				742A1E8A25E424CA00CA991A /* LocationSelection */,
@@ -538,6 +541,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC96F57260C2B2100012977 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
