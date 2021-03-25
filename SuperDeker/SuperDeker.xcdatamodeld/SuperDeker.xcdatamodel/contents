@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="LeaderBoardScore" representedClassName="LeaderBoardScore" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="bands" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="dekerbar" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="game" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="glove" optional="YES" attributeType="String"/>
+        <attribute name="nickname" optional="YES" attributeType="String"/>
+        <attribute name="panels" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="puck" optional="YES" attributeType="String"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skill" optional="YES" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+        <attribute name="stick" optional="YES" attributeType="String"/>
+        <attribute name="videolink" optional="YES" attributeType="String"/>
+        <attribute name="when_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="NotifAlerts" representedClassName="NotifAlerts" syncable="YES">
+        <attribute name="contentImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="contentText" optional="YES" attributeType="String"/>
+        <attribute name="contentType" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PersonalScores" representedClassName="PersonalScores" syncable="YES">
+        <attribute name="bands" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="dekerbar" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="game" optional="YES" attributeType="String"/>
+        <attribute name="nickname" optional="YES" attributeType="String"/>
+        <attribute name="panels" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="puck" optional="YES" attributeType="String"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stick" optional="YES" attributeType="String"/>
+        <attribute name="when_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="LeaderBoardScore" positionX="-63" positionY="18" width="128" height="284"/>
+        <element name="NotifAlerts" positionX="-63" positionY="-18" width="128" height="104"/>
+        <element name="PersonalScores" positionX="-63" positionY="126" width="128" height="164"/>
+    </elements>
+</model>

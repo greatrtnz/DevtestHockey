@@ -1,0 +1,994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C4557492537974D00A92623 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4557482537974D00A92623 /* AppDelegate.swift */; };
+		6C45574B2537974D00A92623 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C45574A2537974D00A92623 /* SceneDelegate.swift */; };
+		6C45574D2537974D00A92623 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C45574C2537974D00A92623 /* ViewController.swift */; };
+		6C4557502537974D00A92623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C45574E2537974D00A92623 /* Main.storyboard */; };
+		6C4557532537974D00A92623 /* SuperDeker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C4557512537974D00A92623 /* SuperDeker.xcdatamodeld */; };
+		6C4557552537974F00A92623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4557542537974F00A92623 /* Assets.xcassets */; };
+		6C4557582537974F00A92623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4557562537974F00A92623 /* LaunchScreen.storyboard */; };
+		6C4557632537975000A92623 /* SuperDekerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4557622537975000A92623 /* SuperDekerTests.swift */; };
+		6C45576E2537975000A92623 /* SuperDekerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C45576D2537975000A92623 /* SuperDekerUITests.swift */; };
+		6C65A7FF2559F9C400845BBA /* StickBrandsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C65A7FE2559F9C300845BBA /* StickBrandsTableViewController.swift */; };
+		6C65A804255A18BD00845BBA /* BrandsProdLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C65A803255A18BD00845BBA /* BrandsProdLinesViewController.swift */; };
+		6C65A811255A1EA300845BBA /* SticksProdLinesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C65A810255A1EA300845BBA /* SticksProdLinesTableViewController.swift */; };
+		6C65A816255A2E6200845BBA /* GloveBrandsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C65A815255A2E6100845BBA /* GloveBrandsTableViewController.swift */; };
+		6C78EC97254F49C300291D55 /* ProfileLocationEditableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78EC96254F49C300291D55 /* ProfileLocationEditableViewController.swift */; };
+		6C78EC9C25519BEB00291D55 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C78EC9B25519BEA00291D55 /* CountriesTableViewController.swift */; };
+		6CA34DFA2551BA9F00936E38 /* ProfileGenderSkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA34DF92551BA9F00936E38 /* ProfileGenderSkillViewController.swift */; };
+		6CABF003254B3581000E0FC0 /* ProfileLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CABF002254B3581000E0FC0 /* ProfileLocationViewController.swift */; };
+		6CC6C01C2551E7BF0058E88E /* ProfileSizeWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6C01B2551E7BE0058E88E /* ProfileSizeWeightViewController.swift */; };
+		6CC6C02725539CA00058E88E /* StatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6C02625539C9F0058E88E /* StatesTableViewController.swift */; };
+		6CC6C03225542EEC0058E88E /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC6C03125542EEB0058E88E /* CitiesTableViewController.swift */; };
+		6CD177262548FC6200EAFB51 /* VerifyEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD177252548FC6200EAFB51 /* VerifyEmailViewController.swift */; };
+		6CD1772B254900FE00EAFB51 /* CongratulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1772A254900FE00EAFB51 /* CongratulationViewController.swift */; };
+		6CD4FDE9253E52B800B7DE1E /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4FDE8253E52B800B7DE1E /* SignViewController.swift */; };
+		6CD4FDEE253E7B6900B7DE1E /* NicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4FDED253E7B6900B7DE1E /* NicknameViewController.swift */; };
+		6CD4FDF3253E82E300B7DE1E /* DobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4FDF2253E82E300B7DE1E /* DobViewController.swift */; };
+		6CEA30BE255B5BD6006C4B36 /* GlovesProdLinesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEA30BD255B5BD6006C4B36 /* GlovesProdLinesTableViewController.swift */; };
+		6CEA30C3255B6DAF006C4B36 /* ConfirmProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEA30C2255B6DAF006C4B36 /* ConfirmProfileViewController.swift */; };
+		6CFED83225451CD8007C66B1 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6CFED83125451CD8007C66B1 /* IQKeyboardManagerSwift */; };
+		6CFED83725466AFE007C66B1 /* blockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFED83625466AFE007C66B1 /* blockList.swift */; };
+		6CFED84425473956007C66B1 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFED84325473956007C66B1 /* SpinnerViewController.swift */; };
+		6CFED85125474E68007C66B1 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFED85025474E68007C66B1 /* AlertViewController.swift */; };
+		6CFED85625479775007C66B1 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFED85525479775007C66B1 /* EmailViewController.swift */; };
+		6CFED85B2547B15A007C66B1 /* PWDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFED85A2547B15A007C66B1 /* PWDViewController.swift */; };
+		6CFED8632547B959007C66B1 /* ValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFED8622547B959007C66B1 /* ValidEmail.swift */; };
+		6CFED868254863CD007C66B1 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFED867254863CD007C66B1 /* ConfirmViewController.swift */; };
+		740F80E125A2AF2400877B23 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F80E025A2AF2400877B23 /* SignInViewController.swift */; };
+		741FFEC425E7FEC400EEA836 /* LeaderBoardScore+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FFEC225E7FEC400EEA836 /* LeaderBoardScore+CoreDataClass.swift */; };
+		741FFEC525E7FEC400EEA836 /* LeaderBoardScore+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741FFEC325E7FEC400EEA836 /* LeaderBoardScore+CoreDataProperties.swift */; };
+		742A1E6A25E05B7500CA991A /* GameListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A1E6925E05B7500CA991A /* GameListTableViewController.swift */; };
+		742A1E6F25E067A800CA991A /* LeaderBoardFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A1E6E25E067A800CA991A /* LeaderBoardFilterViewController.swift */; };
+		742A1E7C25E07C3100CA991A /* SkillLevelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A1E7B25E07C3100CA991A /* SkillLevelTableViewController.swift */; };
+		742A1E8125E0958600CA991A /* AgeBracketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A1E8025E0958600CA991A /* AgeBracketTableViewController.swift */; };
+		742A1E8625E41FF200CA991A /* LocationCountryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A1E8525E41FF200CA991A /* LocationCountryTableViewController.swift */; };
+		742A1E8C25E425F500CA991A /* LocationCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A1E8B25E425F500CA991A /* LocationCountryTableViewCell.swift */; };
+		742A1E9425E48D1A00CA991A /* LocationStateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A1E9325E48D1A00CA991A /* LocationStateTableViewController.swift */; };
+		742A1E9C25E4929100CA991A /* LocationStateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A1E9B25E4929100CA991A /* LocationStateTableViewCell.swift */; };
+		742A1EA425E54EA500CA991A /* LocationCityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A1EA325E54EA500CA991A /* LocationCityTableViewController.swift */; };
+		7432896E259F8D98008C2E14 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432896D259F8D98008C2E14 /* WelcomeViewController.swift */; };
+		7444931225A4E594003174AB /* AlertCenterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7444931125A4E594003174AB /* AlertCenterTableViewCell.swift */; };
+		7444931825A4E846003174AB /* AlertNotif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7444931725A4E846003174AB /* AlertNotif.swift */; };
+		7444932025A4EEAC003174AB /* AlertCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7444931F25A4EEAC003174AB /* AlertCenterViewController.swift */; };
+		745B28F725AD43C6006A629E /* NotifAlerts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B28F525AD43C6006A629E /* NotifAlerts+CoreDataProperties.swift */; };
+		7461189425ADFDF300681F0E /* NotifAlerts+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7461189225ADFDF300681F0E /* NotifAlerts+CoreDataClass.swift */; };
+		747545E425EDC19D002AA1B8 /* PersonalScores+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747545E225EDC19D002AA1B8 /* PersonalScores+CoreDataClass.swift */; };
+		747545E525EDC19D002AA1B8 /* PersonalScores+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747545E325EDC19D002AA1B8 /* PersonalScores+CoreDataProperties.swift */; };
+		74AA235225DC1D2100ADFA64 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA235125DC1D2100ADFA64 /* LeaderBoardViewController.swift */; };
+		74AA235725DC1FDB00ADFA64 /* LeaderBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA235625DC1FDB00ADFA64 /* LeaderBoardTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		CA29D7B326005A8E0090AAED /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		6C45575F2537975000A92623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C45573D2537974D00A92623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C4557442537974D00A92623;
+			remoteInfo = SuperDeker;
+		};
+		6C45576A2537975000A92623 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C45573D2537974D00A92623 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C4557442537974D00A92623;
+			remoteInfo = SuperDeker;
+		};
+		CAC96F15260C0E2700012977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC96F10260C0E2700012977 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		CAC96F17260C0E2700012977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAC96F10260C0E2700012977 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7411A91525ECB26A00047E09 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6C4557452537974D00A92623 /* SuperDeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperDeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4557482537974D00A92623 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C45574A2537974D00A92623 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C45574C2537974D00A92623 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C45574F2537974D00A92623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C4557522537974D00A92623 /* SuperDeker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuperDeker.xcdatamodel; sourceTree = "<group>"; };
+		6C4557542537974F00A92623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C4557572537974F00A92623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C4557592537974F00A92623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C45575E2537975000A92623 /* SuperDekerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperDekerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4557622537975000A92623 /* SuperDekerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDekerTests.swift; sourceTree = "<group>"; };
+		6C4557642537975000A92623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4557692537975000A92623 /* SuperDekerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperDekerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C45576D2537975000A92623 /* SuperDekerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperDekerUITests.swift; sourceTree = "<group>"; };
+		6C45576F2537975000A92623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C65A7FE2559F9C300845BBA /* StickBrandsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickBrandsTableViewController.swift; sourceTree = "<group>"; };
+		6C65A803255A18BD00845BBA /* BrandsProdLinesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrandsProdLinesViewController.swift; path = SuperDeker/BrandsProdLinesViewController.swift; sourceTree = "<group>"; };
+		6C65A810255A1EA300845BBA /* SticksProdLinesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SticksProdLinesTableViewController.swift; path = SuperDeker/SticksProdLinesTableViewController.swift; sourceTree = "<group>"; };
+		6C65A815255A2E6100845BBA /* GloveBrandsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GloveBrandsTableViewController.swift; sourceTree = "<group>"; };
+		6C78EC96254F49C300291D55 /* ProfileLocationEditableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileLocationEditableViewController.swift; sourceTree = "<group>"; };
+		6C78EC9B25519BEA00291D55 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		6CA34DF92551BA9F00936E38 /* ProfileGenderSkillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileGenderSkillViewController.swift; sourceTree = "<group>"; };
+		6CABF002254B3581000E0FC0 /* ProfileLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileLocationViewController.swift; sourceTree = "<group>"; };
+		6CC6C01B2551E7BE0058E88E /* ProfileSizeWeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSizeWeightViewController.swift; sourceTree = "<group>"; };
+		6CC6C02625539C9F0058E88E /* StatesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesTableViewController.swift; sourceTree = "<group>"; };
+		6CC6C03125542EEB0058E88E /* CitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		6CD177252548FC6200EAFB51 /* VerifyEmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyEmailViewController.swift; sourceTree = "<group>"; };
+		6CD1772A254900FE00EAFB51 /* CongratulationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationViewController.swift; sourceTree = "<group>"; };
+		6CD4FDE8253E52B800B7DE1E /* SignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		6CD4FDED253E7B6900B7DE1E /* NicknameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NicknameViewController.swift; sourceTree = "<group>"; };
+		6CD4FDF2253E82E300B7DE1E /* DobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DobViewController.swift; sourceTree = "<group>"; };
+		6CEA30BD255B5BD6006C4B36 /* GlovesProdLinesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlovesProdLinesTableViewController.swift; path = SuperDeker/GlovesProdLinesTableViewController.swift; sourceTree = "<group>"; };
+		6CEA30C2255B6DAF006C4B36 /* ConfirmProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmProfileViewController.swift; sourceTree = "<group>"; };
+		6CFED83625466AFE007C66B1 /* blockList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blockList.swift; sourceTree = "<group>"; };
+		6CFED84325473956007C66B1 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		6CFED85025474E68007C66B1 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		6CFED85525479775007C66B1 /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		6CFED85A2547B15A007C66B1 /* PWDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWDViewController.swift; sourceTree = "<group>"; };
+		6CFED8622547B959007C66B1 /* ValidEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidEmail.swift; sourceTree = "<group>"; };
+		6CFED867254863CD007C66B1 /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		740F80E025A2AF2400877B23 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		741FFEC225E7FEC400EEA836 /* LeaderBoardScore+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeaderBoardScore+CoreDataClass.swift"; sourceTree = "<group>"; };
+		741FFEC325E7FEC400EEA836 /* LeaderBoardScore+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeaderBoardScore+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		742A1E6925E05B7500CA991A /* GameListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListTableViewController.swift; sourceTree = "<group>"; };
+		742A1E6E25E067A800CA991A /* LeaderBoardFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardFilterViewController.swift; sourceTree = "<group>"; };
+		742A1E7B25E07C3100CA991A /* SkillLevelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillLevelTableViewController.swift; sourceTree = "<group>"; };
+		742A1E8025E0958600CA991A /* AgeBracketTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeBracketTableViewController.swift; sourceTree = "<group>"; };
+		742A1E8525E41FF200CA991A /* LocationCountryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCountryTableViewController.swift; sourceTree = "<group>"; };
+		742A1E8B25E425F500CA991A /* LocationCountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCountryTableViewCell.swift; sourceTree = "<group>"; };
+		742A1E9325E48D1A00CA991A /* LocationStateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStateTableViewController.swift; sourceTree = "<group>"; };
+		742A1E9B25E4929100CA991A /* LocationStateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStateTableViewCell.swift; sourceTree = "<group>"; };
+		742A1EA325E54EA500CA991A /* LocationCityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCityTableViewController.swift; sourceTree = "<group>"; };
+		7432896D259F8D98008C2E14 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		7444931125A4E594003174AB /* AlertCenterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertCenterTableViewCell.swift; sourceTree = "<group>"; };
+		7444931725A4E846003174AB /* AlertNotif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertNotif.swift; sourceTree = "<group>"; };
+		7444931F25A4EEAC003174AB /* AlertCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertCenterViewController.swift; sourceTree = "<group>"; };
+		745B28F525AD43C6006A629E /* NotifAlerts+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotifAlerts+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7461189225ADFDF300681F0E /* NotifAlerts+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NotifAlerts+CoreDataClass.swift"; path = "../../NotifAlerts+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7461189F25B0ACD200681F0E /* SuperDeker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SuperDeker.entitlements; sourceTree = "<group>"; };
+		747545E225EDC19D002AA1B8 /* PersonalScores+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonalScores+CoreDataClass.swift"; sourceTree = "<group>"; };
+		747545E325EDC19D002AA1B8 /* PersonalScores+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonalScores+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		74AA235125DC1D2100ADFA64 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeaderBoardViewController.swift; path = SuperDeker/LeaderBoardViewController.swift; sourceTree = SOURCE_ROOT; };
+		74AA235625DC1FDB00ADFA64 /* LeaderBoardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		CAC96F10260C0E2700012977 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../Desktop/VSACiOSApp-/Charts.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C4557422537974D00A92623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFED83225451CD8007C66B1 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C45575B2537975000A92623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4557662537975000A92623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C45573C2537974D00A92623 = {
+			isa = PBXGroup;
+			children = (
+				CAC96F10260C0E2700012977 /* Charts.xcodeproj */,
+				742A1E6E25E067A800CA991A /* LeaderBoardFilterViewController.swift */,
+				740F80E025A2AF2400877B23 /* SignInViewController.swift */,
+				6CEA30C2255B6DAF006C4B36 /* ConfirmProfileViewController.swift */,
+				6CEA30BD255B5BD6006C4B36 /* GlovesProdLinesTableViewController.swift */,
+				6C65A815255A2E6100845BBA /* GloveBrandsTableViewController.swift */,
+				6C65A810255A1EA300845BBA /* SticksProdLinesTableViewController.swift */,
+				6C65A803255A18BD00845BBA /* BrandsProdLinesViewController.swift */,
+				6C65A7FE2559F9C300845BBA /* StickBrandsTableViewController.swift */,
+				742A1E6925E05B7500CA991A /* GameListTableViewController.swift */,
+				6C4557472537974D00A92623 /* SuperDeker */,
+				6C4557612537975000A92623 /* SuperDekerTests */,
+				6C45576C2537975000A92623 /* SuperDekerUITests */,
+				6C4557462537974D00A92623 /* Products */,
+				7411A8AD25ECAE2100047E09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		6C4557462537974D00A92623 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C4557452537974D00A92623 /* SuperDeker.app */,
+				6C45575E2537975000A92623 /* SuperDekerTests.xctest */,
+				6C4557692537975000A92623 /* SuperDekerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C4557472537974D00A92623 /* SuperDeker */ = {
+			isa = PBXGroup;
+			children = (
+				747545EA25EDC1CD002AA1B8 /* PersonalScoreModel */,
+				741FFEC125E7FE3600EEA836 /* LeaderScoreModel */,
+				742A1E8A25E424CA00CA991A /* LocationSelection */,
+				74AA235025DC1C9200ADFA64 /* LeaderBoard */,
+				7461189F25B0ACD200681F0E /* SuperDeker.entitlements */,
+				7444931625A4E7E0003174AB /* AlertModel */,
+				7444931025A4E518003174AB /* AlertCenter */,
+				6CC6C03125542EEB0058E88E /* CitiesTableViewController.swift */,
+				6CC6C01B2551E7BE0058E88E /* ProfileSizeWeightViewController.swift */,
+				6CC6C02625539C9F0058E88E /* StatesTableViewController.swift */,
+				6C4557482537974D00A92623 /* AppDelegate.swift */,
+				6CFED85A2547B15A007C66B1 /* PWDViewController.swift */,
+				6C45574A2537974D00A92623 /* SceneDelegate.swift */,
+				6C45574C2537974D00A92623 /* ViewController.swift */,
+				6CD4FDE8253E52B800B7DE1E /* SignViewController.swift */,
+				6CFED85025474E68007C66B1 /* AlertViewController.swift */,
+				6CD4FDED253E7B6900B7DE1E /* NicknameViewController.swift */,
+				6CA34DF92551BA9F00936E38 /* ProfileGenderSkillViewController.swift */,
+				6CD1772A254900FE00EAFB51 /* CongratulationViewController.swift */,
+				6CD177252548FC6200EAFB51 /* VerifyEmailViewController.swift */,
+				6CFED867254863CD007C66B1 /* ConfirmViewController.swift */,
+				6CABF002254B3581000E0FC0 /* ProfileLocationViewController.swift */,
+				6C78EC96254F49C300291D55 /* ProfileLocationEditableViewController.swift */,
+				6CFED85525479775007C66B1 /* EmailViewController.swift */,
+				6CFED84325473956007C66B1 /* SpinnerViewController.swift */,
+				6CFED83625466AFE007C66B1 /* blockList.swift */,
+				6CD4FDF2253E82E300B7DE1E /* DobViewController.swift */,
+				6C45574E2537974D00A92623 /* Main.storyboard */,
+				742A1E8025E0958600CA991A /* AgeBracketTableViewController.swift */,
+				742A1E7B25E07C3100CA991A /* SkillLevelTableViewController.swift */,
+				6C78EC9B25519BEA00291D55 /* CountriesTableViewController.swift */,
+				6C4557542537974F00A92623 /* Assets.xcassets */,
+				6C4557562537974F00A92623 /* LaunchScreen.storyboard */,
+				6C4557592537974F00A92623 /* Info.plist */,
+				6C4557512537974D00A92623 /* SuperDeker.xcdatamodeld */,
+				6CFED8622547B959007C66B1 /* ValidEmail.swift */,
+				7432896D259F8D98008C2E14 /* WelcomeViewController.swift */,
+			);
+			path = SuperDeker;
+			sourceTree = "<group>";
+		};
+		6C4557612537975000A92623 /* SuperDekerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C4557622537975000A92623 /* SuperDekerTests.swift */,
+				6C4557642537975000A92623 /* Info.plist */,
+			);
+			path = SuperDekerTests;
+			sourceTree = "<group>";
+		};
+		6C45576C2537975000A92623 /* SuperDekerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C45576D2537975000A92623 /* SuperDekerUITests.swift */,
+				6C45576F2537975000A92623 /* Info.plist */,
+			);
+			path = SuperDekerUITests;
+			sourceTree = "<group>";
+		};
+		7411A8AD25ECAE2100047E09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		741FFEC125E7FE3600EEA836 /* LeaderScoreModel */ = {
+			isa = PBXGroup;
+			children = (
+				741FFEC225E7FEC400EEA836 /* LeaderBoardScore+CoreDataClass.swift */,
+				741FFEC325E7FEC400EEA836 /* LeaderBoardScore+CoreDataProperties.swift */,
+			);
+			path = LeaderScoreModel;
+			sourceTree = "<group>";
+		};
+		742A1E8A25E424CA00CA991A /* LocationSelection */ = {
+			isa = PBXGroup;
+			children = (
+				742A1EA325E54EA500CA991A /* LocationCityTableViewController.swift */,
+				742A1E9B25E4929100CA991A /* LocationStateTableViewCell.swift */,
+				742A1E9325E48D1A00CA991A /* LocationStateTableViewController.swift */,
+				742A1E8525E41FF200CA991A /* LocationCountryTableViewController.swift */,
+				742A1E8B25E425F500CA991A /* LocationCountryTableViewCell.swift */,
+			);
+			path = LocationSelection;
+			sourceTree = "<group>";
+		};
+		7444931025A4E518003174AB /* AlertCenter */ = {
+			isa = PBXGroup;
+			children = (
+				7444931125A4E594003174AB /* AlertCenterTableViewCell.swift */,
+				7444931F25A4EEAC003174AB /* AlertCenterViewController.swift */,
+			);
+			path = AlertCenter;
+			sourceTree = "<group>";
+		};
+		7444931625A4E7E0003174AB /* AlertModel */ = {
+			isa = PBXGroup;
+			children = (
+				7461189225ADFDF300681F0E /* NotifAlerts+CoreDataClass.swift */,
+				745B28F525AD43C6006A629E /* NotifAlerts+CoreDataProperties.swift */,
+				7444931725A4E846003174AB /* AlertNotif.swift */,
+			);
+			path = AlertModel;
+			sourceTree = "<group>";
+		};
+		747545EA25EDC1CD002AA1B8 /* PersonalScoreModel */ = {
+			isa = PBXGroup;
+			children = (
+				747545E225EDC19D002AA1B8 /* PersonalScores+CoreDataClass.swift */,
+				747545E325EDC19D002AA1B8 /* PersonalScores+CoreDataProperties.swift */,
+			);
+			path = PersonalScoreModel;
+			sourceTree = "<group>";
+		};
+		74AA235025DC1C9200ADFA64 /* LeaderBoard */ = {
+			isa = PBXGroup;
+			children = (
+				74AA235625DC1FDB00ADFA64 /* LeaderBoardTableViewCell.swift */,
+				74AA235125DC1D2100ADFA64 /* LeaderBoardViewController.swift */,
+			);
+			path = LeaderBoard;
+			sourceTree = "<group>";
+		};
+		CAC96F11260C0E2700012977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAC96F16260C0E2700012977 /* Charts.framework */,
+				CAC96F18260C0E2700012977 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C4557442537974D00A92623 /* SuperDeker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4557722537975000A92623 /* Build configuration list for PBXNativeTarget "SuperDeker" */;
+			buildPhases = (
+				6C4557412537974D00A92623 /* Sources */,
+				6C4557422537974D00A92623 /* Frameworks */,
+				7411A91525ECB26A00047E09 /* Embed Frameworks */,
+				6C4557432537974D00A92623 /* Resources */,
+			);
+			buildRules = (
+				CA29D7B326005A8E0090AAED /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = SuperDeker;
+			packageProductDependencies = (
+				6CFED83125451CD8007C66B1 /* IQKeyboardManagerSwift */,
+			);
+			productName = SuperDeker;
+			productReference = 6C4557452537974D00A92623 /* SuperDeker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C45575D2537975000A92623 /* SuperDekerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4557752537975000A92623 /* Build configuration list for PBXNativeTarget "SuperDekerTests" */;
+			buildPhases = (
+				6C45575A2537975000A92623 /* Sources */,
+				6C45575B2537975000A92623 /* Frameworks */,
+				6C45575C2537975000A92623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4557602537975000A92623 /* PBXTargetDependency */,
+			);
+			name = SuperDekerTests;
+			productName = SuperDekerTests;
+			productReference = 6C45575E2537975000A92623 /* SuperDekerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C4557682537975000A92623 /* SuperDekerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4557782537975000A92623 /* Build configuration list for PBXNativeTarget "SuperDekerUITests" */;
+			buildPhases = (
+				6C4557652537975000A92623 /* Sources */,
+				6C4557662537975000A92623 /* Frameworks */,
+				6C4557672537975000A92623 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C45576B2537975000A92623 /* PBXTargetDependency */,
+			);
+			name = SuperDekerUITests;
+			productName = SuperDekerUITests;
+			productReference = 6C4557692537975000A92623 /* SuperDekerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C45573D2537974D00A92623 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					6C4557442537974D00A92623 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					6C45575D2537975000A92623 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 6C4557442537974D00A92623;
+					};
+					6C4557682537975000A92623 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 6C4557442537974D00A92623;
+					};
+				};
+			};
+			buildConfigurationList = 6C4557402537974D00A92623 /* Build configuration list for PBXProject "superdeker .xcodeproj " */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C45573C2537974D00A92623;
+			packageReferences = (
+				6CFED83025451CD8007C66B1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = 6C4557462537974D00A92623 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CAC96F11260C0E2700012977 /* Products */;
+					ProjectRef = CAC96F10260C0E2700012977 /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6C4557442537974D00A92623 /* SuperDeker */,
+				6C45575D2537975000A92623 /* SuperDekerTests */,
+				6C4557682537975000A92623 /* SuperDekerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CAC96F16260C0E2700012977 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = CAC96F15260C0E2700012977 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CAC96F18260C0E2700012977 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = CAC96F17260C0E2700012977 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C4557432537974D00A92623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4557582537974F00A92623 /* LaunchScreen.storyboard in Resources */,
+				6C4557552537974F00A92623 /* Assets.xcassets in Resources */,
+				6C4557502537974D00A92623 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C45575C2537975000A92623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4557672537975000A92623 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C4557412537974D00A92623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFED85B2547B15A007C66B1 /* PWDViewController.swift in Sources */,
+				6CD177262548FC6200EAFB51 /* VerifyEmailViewController.swift in Sources */,
+				6C45574D2537974D00A92623 /* ViewController.swift in Sources */,
+				6CFED83725466AFE007C66B1 /* blockList.swift in Sources */,
+				747545E525EDC19D002AA1B8 /* PersonalScores+CoreDataProperties.swift in Sources */,
+				741FFEC425E7FEC400EEA836 /* LeaderBoardScore+CoreDataClass.swift in Sources */,
+				6CC6C03225542EEC0058E88E /* CitiesTableViewController.swift in Sources */,
+				6CD4FDF3253E82E300B7DE1E /* DobViewController.swift in Sources */,
+				742A1E8625E41FF200CA991A /* LocationCountryTableViewController.swift in Sources */,
+				741FFEC525E7FEC400EEA836 /* LeaderBoardScore+CoreDataProperties.swift in Sources */,
+				7461189425ADFDF300681F0E /* NotifAlerts+CoreDataClass.swift in Sources */,
+				742A1EA425E54EA500CA991A /* LocationCityTableViewController.swift in Sources */,
+				6CEA30BE255B5BD6006C4B36 /* GlovesProdLinesTableViewController.swift in Sources */,
+				742A1E8125E0958600CA991A /* AgeBracketTableViewController.swift in Sources */,
+				742A1E9C25E4929100CA991A /* LocationStateTableViewCell.swift in Sources */,
+				6CFED8632547B959007C66B1 /* ValidEmail.swift in Sources */,
+				742A1E9425E48D1A00CA991A /* LocationStateTableViewController.swift in Sources */,
+				74AA235725DC1FDB00ADFA64 /* LeaderBoardTableViewCell.swift in Sources */,
+				6CFED868254863CD007C66B1 /* ConfirmViewController.swift in Sources */,
+				6C65A804255A18BD00845BBA /* BrandsProdLinesViewController.swift in Sources */,
+				6CFED85125474E68007C66B1 /* AlertViewController.swift in Sources */,
+				6C4557532537974D00A92623 /* SuperDeker.xcdatamodeld in Sources */,
+				6C65A811255A1EA300845BBA /* SticksProdLinesTableViewController.swift in Sources */,
+				742A1E7C25E07C3100CA991A /* SkillLevelTableViewController.swift in Sources */,
+				6CC6C02725539CA00058E88E /* StatesTableViewController.swift in Sources */,
+				6CD4FDE9253E52B800B7DE1E /* SignViewController.swift in Sources */,
+				6CABF003254B3581000E0FC0 /* ProfileLocationViewController.swift in Sources */,
+				6C4557492537974D00A92623 /* AppDelegate.swift in Sources */,
+				6CD4FDEE253E7B6900B7DE1E /* NicknameViewController.swift in Sources */,
+				6C65A816255A2E6200845BBA /* GloveBrandsTableViewController.swift in Sources */,
+				6C78EC97254F49C300291D55 /* ProfileLocationEditableViewController.swift in Sources */,
+				6C78EC9C25519BEB00291D55 /* CountriesTableViewController.swift in Sources */,
+				74AA235225DC1D2100ADFA64 /* LeaderBoardViewController.swift in Sources */,
+				7444931225A4E594003174AB /* AlertCenterTableViewCell.swift in Sources */,
+				7432896E259F8D98008C2E14 /* WelcomeViewController.swift in Sources */,
+				742A1E8C25E425F500CA991A /* LocationCountryTableViewCell.swift in Sources */,
+				6CFED84425473956007C66B1 /* SpinnerViewController.swift in Sources */,
+				6CA34DFA2551BA9F00936E38 /* ProfileGenderSkillViewController.swift in Sources */,
+				745B28F725AD43C6006A629E /* NotifAlerts+CoreDataProperties.swift in Sources */,
+				740F80E125A2AF2400877B23 /* SignInViewController.swift in Sources */,
+				6CFED85625479775007C66B1 /* EmailViewController.swift in Sources */,
+				7444932025A4EEAC003174AB /* AlertCenterViewController.swift in Sources */,
+				6CD1772B254900FE00EAFB51 /* CongratulationViewController.swift in Sources */,
+				6C45574B2537974D00A92623 /* SceneDelegate.swift in Sources */,
+				742A1E6F25E067A800CA991A /* LeaderBoardFilterViewController.swift in Sources */,
+				6C65A7FF2559F9C400845BBA /* StickBrandsTableViewController.swift in Sources */,
+				6CC6C01C2551E7BF0058E88E /* ProfileSizeWeightViewController.swift in Sources */,
+				6CEA30C3255B6DAF006C4B36 /* ConfirmProfileViewController.swift in Sources */,
+				7444931825A4E846003174AB /* AlertNotif.swift in Sources */,
+				747545E425EDC19D002AA1B8 /* PersonalScores+CoreDataClass.swift in Sources */,
+				742A1E6A25E05B7500CA991A /* GameListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C45575A2537975000A92623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4557632537975000A92623 /* SuperDekerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4557652537975000A92623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C45576E2537975000A92623 /* SuperDekerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C4557602537975000A92623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C4557442537974D00A92623 /* SuperDeker */;
+			targetProxy = 6C45575F2537975000A92623 /* PBXContainerItemProxy */;
+		};
+		6C45576B2537975000A92623 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C4557442537974D00A92623 /* SuperDeker */;
+			targetProxy = 6C45576A2537975000A92623 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C45574E2537974D00A92623 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C45574F2537974D00A92623 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C4557562537974F00A92623 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C4557572537974F00A92623 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C4557702537975000A92623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C4557712537975000A92623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C4557732537975000A92623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_ENTITLEMENTS = SuperDeker/SuperDeker.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 2U26CG47WX;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				INFOPLIST_FILE = SuperDeker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsoc.vsac1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6C4557742537975000A92623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_ENTITLEMENTS = SuperDeker/SuperDeker.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 2U26CG47WX;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				INFOPLIST_FILE = SuperDeker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsoc.vsac1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6C4557762537975000A92623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2U26CG47WX;
+				INFOPLIST_FILE = SuperDekerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LSOC.SuperDekerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperDeker.app/SuperDeker";
+			};
+			name = Debug;
+		};
+		6C4557772537975000A92623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2U26CG47WX;
+				INFOPLIST_FILE = SuperDekerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LSOC.SuperDekerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperDeker.app/SuperDeker";
+			};
+			name = Release;
+		};
+		6C4557792537975000A92623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SuperDekerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LSOC.SuperDekerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperDeker;
+			};
+			name = Debug;
+		};
+		6C45577A2537975000A92623 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2U26CG47WX;
+				INFOPLIST_FILE = SuperDekerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LSOC.SuperDekerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperDeker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C4557402537974D00A92623 /* Build configuration list for PBXProject "superdeker .xcodeproj " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4557702537975000A92623 /* Debug */,
+				6C4557712537975000A92623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C4557722537975000A92623 /* Build configuration list for PBXNativeTarget "SuperDeker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4557732537975000A92623 /* Debug */,
+				6C4557742537975000A92623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C4557752537975000A92623 /* Build configuration list for PBXNativeTarget "SuperDekerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4557762537975000A92623 /* Debug */,
+				6C4557772537975000A92623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C4557782537975000A92623 /* Build configuration list for PBXNativeTarget "SuperDekerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4557792537975000A92623 /* Debug */,
+				6C45577A2537975000A92623 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6CFED83025451CD8007C66B1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6CFED83125451CD8007C66B1 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6CFED83025451CD8007C66B1 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		6C4557512537974D00A92623 /* SuperDeker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C4557522537974D00A92623 /* SuperDeker.xcdatamodel */,
+			);
+			currentVersion = 6C4557522537974D00A92623 /* SuperDeker.xcdatamodel */;
+			path = SuperDeker.xcdatamodeld;
+			sourceTree = "<group>";
+			usesTabs = 0;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C45573D2537974D00A92623 /* Project object */;
+}
